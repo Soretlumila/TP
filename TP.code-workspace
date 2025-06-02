@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "TP",
+			"path": "../../TP"
+		},
+		{
+			"name": "img",
+			"path": "img"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "TP"
+	}
+}
