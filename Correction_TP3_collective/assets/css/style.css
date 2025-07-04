@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    font-family: "Caveat Brush", cursive;
+}
+
+header {
+    background-image: url("../img/planches.jpg");
+    padding: 0 0 54px 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.logo h1,
+.logo h3 {
+    font-size: 45px;
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: -2px;
+}
+
+h1 span,
+h3 span {
+    font-size: 27px;
+    font-style: italic;
+    position: relative;
+    bottom: 11px;
+    left: 5px;
+}
+
+h1 span::after,
+h3 span::after {
+    content: "-";
+    position: relative;
+    top: 12px;
+    right: 12px;
+}
+
+.nav_bar {
+    display: flex;
+}
+
+.nav_bar li {
+    list-style-type: none;
+    margin: 0 0 0 30px;
+}
+
+.nav_bar a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.trait {
+    width: 30px;
+    height: 8px;
+    background-color: #E53F6F;
+    margin: 0 auto;
+}
+
+.bloc_cerf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    flex-direction: column;
+}
+.triangle{
+    display: inline-block;
+    height: 0;
+    width: 0;
+    border-top: 120px solid rgb(229, 63, 111, 0.7);
+    border-left: 120px solid transparent;
+    position: relative;
+    bottom: 160px;
+    scale: 130%;
+
+}
+.cerf{
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  z-index: 1;
+}
+
+.fleche{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-right: 0.3em solid #E53F6F;
+    border-top: 0.3em solid #E53F6F;
+    transform: rotate(125deg) skewY(20deg);   
+}
+section{
+    display: flex;
+    align-items: center;
+    margin-bottom: -5px;
+}
+.story{
+    width: 40%;
+    text-align: center;
+    padding: 35px;
+}
+h2, .texte_rose{
+    font-family: sans-serif;
+}
+.texte_rose{
+    color: #E53F6F;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.fare{
+    width: 30%;
+    text-align: center;
+    padding: 35px;
+}
+.soap{
+    width: 70%;
+}
+h2{
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+.local{
+    width: 40%;
+    text-align: center;
+    padding: 35px;
+}
+.local p img, .fare p img{
+    width: 100px;
+}
+.local_img{
+    text-align: center;
+}
+
+
+
+.eggs{
+    width: 100%;
+}

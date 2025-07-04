@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+header{
+    background-image: url(img/dinosaure.jpg);
+    height: 850px;
+    margin-top: -150px;
+}
+.tcw{
+    color: #00e1ff;
+}
+#htext{
+    background-color: black;
+}
+li{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 150px;
+}

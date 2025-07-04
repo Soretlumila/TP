@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+#conteneur{
+    background-color: black;
+    
+}
+.tcj{
+    color: #D4AB27;
+}
+.tcw{
+    color: white;
+}
+.tcg{
+    color: #979797;
+}
+.fontds{
+     font-family: "Dancing Script", cursive;
+}
+.fontjs{
+    font-family: "Josefin Sans", sans-serif;
+}
+
+header{
+    background-image: url(img/eggs.jpg);
+width: 90%;
+margin: auto;
+height: 600px;
+background-repeat: no-repeat;
+background-size: cover;
+}
+#hautheader{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+#hautheader > nav{
+width: 50%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+#borderjaune{
+border: #D4AB27 solid 1px;
+
+}
+#hautheader > h4{
+width: 30%;
+}
+header > h2{
+    margin:  auto;
+    width: 30%; 
+}
+header > h1{
+    margin: 140px auto;
+    width: 50%;
+    font-size: 120px;
+}
+#welc{
+    padding-left: 120px;
+    margin-top: 70px;
+}
+
+
+
+
+
+footer > section > iframe{
+    width: 80%;
+    margin-left: 8%;
+}
+#foot{
+    background-color: #383838;
+display: block;
+flex-direction: column;
+}

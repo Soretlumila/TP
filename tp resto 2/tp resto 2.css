@@ -1,0 +1,208 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 1200px;
+  margin: auto;
+}
+.font {
+  font-family: "Caveat Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.batonrose{
+  border: 7px solid  rgb(212, 39, 109);
+  width: 45px;
+  padding: 0;
+}
+/* le css general est en haut et le header en bas */
+#cerf{
+    height: 100px;
+    width: 100px;
+}
+  #form {
+    width: 0;
+    height: 0;
+    border-top: 100px solid rgb(212, 39, 109);
+    border-left: 100px solid transparent;
+  }
+
+.flechebas{
+  transform: translateX(-50%) rotate(-45deg);
+  width: 30px;
+  height: 30px;
+  border-bottom: 1px solid rgb(212, 39, 109)
+  ;
+  border-left: 1px solid
+  rgb(212, 39, 109);
+ box-sizing: border-box;
+ display: block;
+}
+header{
+  background-image: url(planches.jpg);
+height: 900px;
+
+}
+#haut{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+nav{
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 40px;
+  font-size: 105%;
+}
+nav h3{
+  margin-right: 5px;
+  font-size: 170%;
+margin-left: 50px;
+}
+#titre{
+  width: 50%;
+  font-size: 200%;
+  padding-top: 13px;
+  
+}
+h1{
+  padding-left: 70px;
+}
+#p{
+margin-left: 105px;
+}
+/* header logo */
+#ab{
+  height: 87.2;
+}
+#logo{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 300px;
+
+}
+#cerf{
+position: relative;
+z-index: 2;
+scale: 240%;
+}
+#form{
+position: absolute;
+z-index: 1;
+scale: 190%;
+margin-right: 35px ;
+margin-top: 15px;
+}
+#lafleche{
+  margin-top: 320px;
+  scale: 220%;
+  margin-left: 609px;
+}
+/* le main c a partir d'ici jeremy :) */
+main{
+  width: 100%;
+}
+#levendeur{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+.divdis{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.imgdiv{
+width: 70%;
+}
+.divtexte{
+  width: 30%;
+  text-align: center;
+  margin-top: 50px;
+}
+main section div img{
+  width: 100%;
+  height: auto;
+}
+.imgpeti{
+  height: 250px;
+  width: 300px;
+}
+.switch{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.littleimg{
+  width: 60%;
+}
+.littletext{
+  width: 40%;
+}
+.asf{
+  margin: auto;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.texterose{
+  color: rgb(229, 63, 111);
+  padding-top: 10px;
+  font-weight: 500;
+}
+main section div p{
+  width: 80%;
+  margin: auto;
+}
+#asperge{
+ transform: rotateY(3.142rad);
+}
+/* revien au body plus tard tout va bien louis */
+
+#egg{
+  width: 100%;
+  height: 450px;
+  background-image: url(oeuf.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+/* le footer en bas  */
+footer{
+  background-image: url(motif.jpg);
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+}
+footer div{
+  width: 50%;
+padding-top: 100px;
+}
+#am{
+padding-left: 100px;
+}
+#cd{
+   width: 50%;
+  font-size: 240%;
+  padding-top: 13px;
+}
+#bj{
+margin-left: 20px;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+#lesmarques{
+  justify-content: end; 
+  display: flex;
+}
+.lesmarques{
+padding-right: 25px;
+scale: 200%;
+margin-top: 200px;
+}
